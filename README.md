@@ -1,70 +1,77 @@
-**Project Name: FoodZone**
+### FoodZone
 
-![FoodyZone](https://github.com/doofenzs/FoodZone/assets/88713466/c05ce636-7692-48d9-97cc-cafd418b3f55)
+This is a simple web application for searching food items based on different categories like breakfast, lunch, and dinner. Users can search for specific food items using the search bar and filter them based on meal types.
 
----
+![FoodyZone](https://github.com/doofenzs/FoodZone/assets/88713466/4833d5e3-0d9d-43c8-9caf-ad9991b6ecdf)
 
-### Description:
-The FoodZone is a web application designed to help users find various types of food items conveniently. Users can search for specific foods, filter them by meal types, and view detailed information along with prices.
+### Technologies Used
 
----
+- React.js
+- Styled-components
+- REST API
 
-### Features:
+### Installation
 
-1. **Search Functionality:** Users can search for specific food items using the search bar provided on the application.
-   
-2. **Filtering by Meal Types:** Users can filter food items based on meal types such as Breakfast, Lunch, and Dinner.
-   
-3. **Responsive Design:** The application is designed to be responsive, providing an optimal viewing experience across various devices and screen sizes.
+1. **Clone the repository:**
 
----
+```bash
+git clone <repository_url>
+cd <project_directory>
+```
 
-### Technologies Used:
+2. **Install dependencies:**
 
-- **React:** The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
-  
-- **Styled-Components:** Styled-components is used for styling React components with scoped styles and dynamic styling capabilities.
-  
-- **Fetch API:** Fetch API is utilized for fetching data from the backend server.
+```bash
+npm install
+```
 
----
+3. **Start the development server:**
 
-### Installation Guide:
+```bash
+npm start
+```
 
-1. Clone the repository from GitHub:
-   ```
-   git clone <repository_url>
-   ```
+4. **Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.**
 
-2. Navigate to the project directory:
-   ```
-   cd food-search-app
-   ```
+### Backend Server
 
-3. Install dependencies:
-   ```
-   npm install
-   ```
+This application requires a backend server to fetch food data. Follow these steps to set up the backend server:
 
-4. Start the development server:
-   ```
-   npm start
-   ```
+1. **Navigate to the backend directory:**
 
-5. Open your browser and visit `http://localhost:3000` to view the application.
+```bash
+cd backend
+```
 
----
+2. **Install backend dependencies:**
 
-### Project Structure:
+```bash
+npm install
+```
 
-- **`src/`**: Contains the source code of the application.
-  - **`components/`**: Contains React components used throughout the application.
-  - **`App.js`**: The main entry point of the application.
-  - **`index.js`**: The file responsible for rendering the React application into the DOM.
-  - **`styles/`**: Contains global styles and styled components used for styling the application.
-  - **`assets/`**: Contains static assets such as images and icons.
-  - **`README.md`**: Contains information about the project, setup instructions, and other relevant details.
+3. **Start the backend server:**
 
----
+```bash
+npm start
+```
+
+4. **Your backend server will now be running on [http://localhost:9000](http://localhost:9000).**
+
+### Features
+
+- Search functionality to find specific food items.
+- Filter options for different meal types (breakfast, lunch, dinner).
+- Responsive design for seamless experience across devices.
+- Beautifully styled UI using styled-components.
+
+### Folder Structure
+
+- **`src/components`**: Contains reusable components.
+- **`src/App.jsx`**: Main application component.
+- **`src/index.js`**: Entry point of the application.
+- **`public`**: Static assets like images and favicon.
 
 
+### Contact
+
+For any inquiries or suggestions, feel free to reach out to [asalunkhe1999@gmail.com].
